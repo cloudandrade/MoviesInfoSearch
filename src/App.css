@@ -6,9 +6,37 @@
     background-color: #424752 ;
 }
 
+#movies img,
+#movie img{
+    width: 100%;
+}
+
+.brand-text{
+    font-size: 2rem;
+}
+
 .container-center{
 margin-left: 36%;
 margin-right: 30%;
 display: flex !important;
 align-items: center !important;
+}
+
+#react-logo{
+color: #00d8ff;
+}
+
+#imdb-logo{
+    color: #f5de50;
+}
+
+@media (min-width: 960px){
+    #movies .col-md-3 .well{
+        height: 390px;
+    }
+
+    #movies  .col-md-3 img{
+        height: 240px;
+    }
+
 }
