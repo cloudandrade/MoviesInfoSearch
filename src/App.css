@@ -30,6 +30,8 @@ color: #00d8ff;
     color: #f5de50;
 }
 
+
+
 @media (min-width: 960px){
     #movies .col-md-3 .well{
         height: 390px;
@@ -37,6 +39,29 @@ color: #00d8ff;
 
     #movies  .col-md-3 img{
         height: 240px;
+        border-style: ;
+        border-radius: 20%;
     }
 
 }
+
+.Input-text {
+    margin: 0;
+    padding:  0.8rem, 1.6rem;
+    width: 60%;
+    height: 10%;
+    display: initial;
+    font-family: inherit;
+    line-height: 1.8;
+    border: none;
+    border-radius: 0.4rem;
+    transition: box-shadow 300ms;
+  }
+
+  .footer{
+    width: 100%;
+position: absolute;
+	bottom: 0;
+  }
+
+

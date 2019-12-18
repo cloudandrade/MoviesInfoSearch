@@ -4,8 +4,8 @@ function Footer() {
     return (
         <div>
 
-<footer className="page-footer font-small">
-  <div className="container-fluid grey">
+<footer className="page-footer font-small footer">
+  <div className="container-fluid grey ">
     <div className="row">
       <div className="col-md-12 py-4">
         <div className="mb-2 container-center">
