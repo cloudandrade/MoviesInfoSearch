@@ -61,8 +61,8 @@ color: #00d8ff;
   .footer{
     width: 100%;
     position: absolute;
-    bottom: 0;
-    height: 2.5rem; 
+    height: 0rem;
+    bottom: 0px;
   }
 
 
