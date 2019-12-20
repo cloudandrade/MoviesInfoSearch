@@ -60,8 +60,9 @@ color: #00d8ff;
 
   .footer{
     width: 100%;
-position: absolute;
-	bottom: 0;
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem; 
   }
 
 
