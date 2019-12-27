@@ -1,4 +1,4 @@
-import {SEARCH_MOVIE, FETCH_MOVIES} from '../actions/types';
+import {SEARCH_MOVIE, FETCH_MOVIES, FETCH_MOVIE} from '../actions/types';
 
 const initialState = {
     text: "",
@@ -19,6 +19,11 @@ switch(action.type){
         return {
             ...state,
             movies: action.payload
+        }
+        case FETCH_MOVIE:
+        return {
+            ...state,
+            movie: action.payload
         }
     default:
         return state;

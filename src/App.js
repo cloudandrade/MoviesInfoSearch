@@ -2,10 +2,11 @@ import React, {Component} from 'react';
 import {Provider} from 'react-redux';
 import './App.css';
 
+import Movie from './components/home/Movie'
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Landing from './components/home/Landing';
-import {HashRouter as Router} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Redirect} from 'react-router-dom'
 
 import store from './store';
 
@@ -14,11 +15,13 @@ class App extends Component {
     return (
       <Provider store={store}>
         <Router>
-          <div>
+       
             <Navbar></Navbar>
-            <Landing></Landing>
+            <Route exacly path="/" component={Landing} />
+            <Route  exacly path="/movie/:id" component={Movie} />
+            <Redirect path="**" to="/" />
             <Footer></Footer>
-          </div>
+          
       </Router>
       </Provider>
     )
