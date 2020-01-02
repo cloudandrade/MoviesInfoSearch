@@ -17,8 +17,8 @@ class App extends Component {
         <Router>
        
             <Navbar></Navbar>
-            <Route exacly path="/" component={Landing} />
-            <Route  exacly path="/movie/:id" component={Movie} />
+            <Route exact path="/" component={Landing} />
+            <Route  exact path="/movie/:id" component={Movie} />
             <Redirect path="**" to="/" />
             <Footer></Footer>
           
