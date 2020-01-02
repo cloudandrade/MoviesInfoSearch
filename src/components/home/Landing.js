@@ -12,7 +12,7 @@ render(){
         <div className="container">
             <SearchForm></SearchForm>
             {loading ? <Spinner/> : <MoviesContainer />}
-        </div>
+        </div>  
     )
 }
 }
